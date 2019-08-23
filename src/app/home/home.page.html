@@ -1,0 +1,100 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-grid>
+            <ion-row>
+                <ion-col size="2">
+                    <ion-img style="width: 70%; height: auto; padding: 10px" src="../assets/images/istiklal.png"></ion-img>
+                </ion-col>
+                <ion-col size="10" padding="">
+                    <ion-grid>
+                        <ion-row padding="" justify-content-center="">
+
+                        </ion-row>
+                        <ion-row justify-content-end="">
+                            <b><i>Bir devrin kurtuluşuna ışık veren, kahramanların yaşadığı yerlerin öyküsüdür İstiklal yolu!</i></b>
+                        </ion-row>
+                        <ion-row justify-content-end="">
+                            <b><i>Sizler de İstiklal yolu bisikletçisi olmaya hazır mısınız?</i></b>
+                        </ion-row>
+
+                    </ion-grid>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main_content">
+    <div class="menu_header">
+        <ion-toolbar>
+            <ion-row padding class="fixed_height" justify-content-end="">
+                <ion-button>Ana Sayfa</ion-button>
+                <ion-button>Galeri</ion-button>
+                <ion-button (click)="this.raceInfo()">Yarışma Bilgileri</ion-button>
+                <ion-button>Kastamonu</ion-button>
+                <ion-button (click)="this.record()"> Kayıt Ol!</ion-button>
+            </ion-row>
+        </ion-toolbar>
+    </div>
+    <ion-slides>
+        <ion-slide>
+            <ion-img style="width: 10%; height: auto; padding: 10px" src="../assets/images/istiklal.png"></ion-img>
+        </ion-slide>
+        <ion-slide>
+            <ion-img style="width: 10%; height: auto; padding: 10px" src="../assets/images/istiklal.png"></ion-img>
+        </ion-slide>
+    </ion-slides>
+    <div padding="">
+        <ion-card>
+            <ion-card-header>
+                <ion-title text-center=""> İstiklal Yolu</ion-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-text padding-start="20px">
+                    Milli mücadele yıllarında, Anadolu'da işgale uğramamış tek bölge Karadeniz, Anadolu'nun dışarı
+                    açılabileceği
+                    tek güvenli yeri ise Kastamonu'nun İnebolu limanı idi. Türk toplumunun yaşayabilmesi ve mücadelenin
+                    başarıya
+                    ulaşabilmesi, İnebolu limanından gelecek mühimmata bağlıydı. Özellikle 28 Haziran 1921'de İzmit'in
+                    Yunanlılar
+                    tarafından işgali üzerine Anadolu'nun giriş-çıkış kapıları Karadeniz limanları olmaya başladı. Bu
+                    sebeple
+                    İnebolu-Ankara arasındaki bu yol, milli mücadele için hayati bir önem taşıyordu. O dönemde güvenliği
+                    açısından
+                    tercih edilen bu yol, yağışlı havalarda çamurla kaplanan eski bir kervan yoluydu. İnebolu'nun büyük
+                    gemileri
+                    barındıracak bir limanı yoktu. İnebolu açıklarına gemilerle gelen silah ve cephane, açıktan ve her
+                    türlü
+                    hava
+                    şartlarında kahraman demirciler tarafından kayıklarla İnebolu kıyılarına çıkarılıyordu. Bu
+                    malzemeler
+                    Kastamonu'nun kahraman kadınları, yaşlıları ve çocukları tarafından çok zor şartlarda kağnılarla
+                    Ankaraya
+                    taşınıyordu. O dönemde Anadaolu'nun eli silah tutan erkekleri cephelerde düşmana karşı
+                    çarpışıyorlardı. Bu
+                    güzergahta yol alan nakliye kollarının ortak nitelikleri cephe gerisinde kalan çocuk, kadın ve
+                    yaşlılardan
+                    oluşması idi. İşte bu sebeplerden İnebolu'dan Ankara'ya uzanan bu zorlu yola 'İstiklal Yolu'
+                    denilmektedir.
+                </ion-text>
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-header>
+                <ion-title text-center=""> Ersizlerdere</ion-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-text>
+                    Bir zamanlar 'Dereköy' adıyla anılan Ersizlerdere köyü, Çanakkale Savaşında cepheye giden hiçbir
+                    erkeğin
+                    geri
+                    dönmeyişiyle ismini kazanmıştır. Köyün kadınları ise erlerini Çanakkale'de kaybederken, İnebolu'dan
+                    Ankara'ya
+                    uzanan ve Batı cephesi için toplanan cephane sevkiyatında görev almışlardır.
+                </ion-text>
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>
+

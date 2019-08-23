@@ -1,0 +1,23 @@
+ion-header {
+  --ion-background-color: #f67f7f;
+}
+.menu_header {
+  --ion-background-color: #F23A3A;
+  alignment-baseline: center;
+  display: flex;
+  text-align: center;
+}
+.main_content {
+  --ion-background-color: #FFD1D1;
+}
+ion-button {
+  --background: #ffb3b3 !important;
+  color: #1e2023;
+  --background-activated: #000000;
+  --background-hover: #000000;
+  --color-hover: #ffffff;
+}
+.fixed_height {
+
+}
+ion-title {}

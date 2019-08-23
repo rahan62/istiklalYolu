@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Kayıt</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-row justify-content-center="">
+        <ion-card class="white_background" style="width: 500px; height: 600px; margin-top: 10px;" wrap="">
+            <ion-card-header>
+                <ion-toolbar>
+                    <ion-title>
+                        Kayıt
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+
+                <ion-item>
+                    <ion-input placeholder="  İsim" [(ngModel)]="name"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input placeholder="  Soyisim" [(ngModel)]="surname"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-datetime placeholder="Doğum tarihiniz" [(ngModel)]="birthdate"></ion-datetime>
+                </ion-item>
+                <ion-item>
+                    <ion-input placeholder="  Dekont No" [(ngModel)]="decontNo"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input placeholder="  Spor Kulübü" [(ngModel)]="sportsClub"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input placeholder="  TC Kimlik No" [(ngModel)]="tcIdentity"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-select placeholder="Cinsiyet" [(ngModel)]="sex">
+                        <ion-select-option value="Kadın">Kadın</ion-select-option>
+                        <ion-select-option value="Erkek">Erkek</ion-select-option>
+                    </ion-select>
+                </ion-item>
+            </ion-card-content>
+            <ion-card-subtitle>
+                <ion-row justify-content-center="">
+                    <ion-button (click)="addUser()">Kayıt Ol!</ion-button>
+                </ion-row>
+            </ion-card-subtitle>
+        </ion-card>
+    </ion-row>
+</ion-content>
